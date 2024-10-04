@@ -13,32 +13,8 @@ import { Link } from "react-router-dom";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 const links = [
   {
-    path: "/cars",
-    title: "Cars",
-  },
-  {
     path: "#",
-    title: "Motorcycles",
-  },
-  {
-    path: "/mobile",
-    title: "Mobile Phones",
-  },
-  {
-    path: "#",
-    title: "For Sale: Houses & Apartments",
-  },
-  {
-    path: "#",
-    title: "Scooters",
-  },
-  {
-    path: "#",
-    title: "Commercial & Other Vehicles",
-  },
-  {
-    path: "#",
-    title: "For Rent: Houses & Apartments",
+    title: "For Rent: Fitness Equipments",
   },
 ];
 
@@ -84,20 +60,9 @@ const DownNavbar = () => {
                       >
                         <Link to="#">Properties</Link>
                       </Box>
+                      
                       <Box _hover={{ color: "#319795" }}>
-                        <Link to="#">For Sale: Houses & Apartments</Link>
-                      </Box>
-                      <Box _hover={{ color: "#319795" }}>
-                        <Link to="#">For Rent: Houses & Apartments</Link>
-                      </Box>
-                      <Box _hover={{ color: "#319795" }}>
-                        <Link to="#">Lands & Plots</Link>
-                      </Box>
-                      <Box _hover={{ color: "#319795" }}>
-                        <Link to="#">For Rent: Shops & Offices</Link>
-                      </Box>
-                      <Box _hover={{ color: "#319795" }}>
-                        <Link to="#">For Sale: Shops & Offices</Link>
+                        <Link to="#">For Rent: Fitness Equipments</Link>
                       </Box>
                       <Box _hover={{ color: "#319795" }}>
                         <Link to="#">PG & Guest Houses</Link>
